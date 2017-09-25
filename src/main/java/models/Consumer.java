@@ -13,13 +13,14 @@ public class Consumer {
     
     private String SSN;
     private ConsumerRequest request;
+    private int CreditScore;
+
+    public int getCreditScore() {
+        return CreditScore;
+    }
 
     public String getSSN() {
         return SSN;
-    }
-
-    public void setSSN(String SSN) {
-        this.SSN = SSN;
     }
 
     public ConsumerRequest getRequest() {

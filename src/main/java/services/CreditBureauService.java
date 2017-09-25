@@ -9,6 +9,6 @@ package services;
  *
  * @author Andreas
  */
-public class CreditBureau {
+public class CreditBureauService {
     
 }
