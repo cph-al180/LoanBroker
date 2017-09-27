@@ -15,8 +15,8 @@ public class CreditBureauServiceController {
     
     private String CreditScoreUrl = "http://138.68.85.24:8080/CreditScoreService/CreditScoreService?wsdl";
     
-    public String GetConsumerSSN(Consumer consumer){
-        return consumer.getSSN();
+    public int GetCreditScore(String SSN){
+        return 0;
     }
     
 }
